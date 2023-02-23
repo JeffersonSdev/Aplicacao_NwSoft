@@ -1,0 +1,113 @@
+body{
+    background-image: linear-gradient(to right, rgb(136, 34, 139), rgb(70, 16, 77));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    color:rgb(242, 204, 243);
+}
+
+fieldset{
+    border: 2px solid #8C52FF;
+    border-radius: 7px;
+}
+
+legend{
+    border: 1px solid #8C52FF;
+    padding: 5px;
+    text-align: center;
+    background-color: #8C52FF;
+    border-radius: 7px;
+    color: white;
+}
+
+
+.header-text{
+    text-align: center;
+    
+}
+
+#order{
+    top:10px;
+}
+
+.input-option{
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    width: 38%;
+
+}
+.option-align{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.input-box{
+    position: relative;
+}
+.input-user{
+    background: none;
+    border:none;
+    border-bottom: 1px solid rgb(242, 204, 243);
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.label-input{
+    position:absolute;
+    top:0px;
+    left:0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-user:focus ~ .label-input,
+.input-user:valid ~ .label-input{
+    top: -15px;
+    font-size: 12px;
+    color: #8C52FF;
+}
+
+.footer-text{
+    font-size: 13px;
+}
+#form-payment{
+    top: 30%;
+    text-align: center;
+}
+
+.button{
+    background-color: #8C52FF;
+    width: 50%;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-style: none;
+
+}
+.button:hover{
+    background-color: #523196;
+}
+
+.align-button{
+    display: flex;
+    justify-content: space-around;
+}
+.venda{
+    display: block;
+}
